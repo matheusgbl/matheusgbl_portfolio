@@ -7,14 +7,14 @@ const theme = {
 };
 
 export const Container = styled.div`
-  padding: 50px 180px;
+  padding: 30px 180px;
   color: #fff;
   display: flex;
   align-items: center;
 
   h1 {
     font-family: ${theme.arcadeFont}, sans-serif;
-    letter-spacing: 1rem;
+    letter-spacing: 0.7rem;
 
     &:hover {
       cursor: pointer;
